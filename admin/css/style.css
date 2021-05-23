@@ -1,0 +1,121 @@
+nav{
+    display: fixed;
+}
+.navbar-brand{
+    margin-left: 40px;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium';
+}
+.nav-item{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium';
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nav-item:hover{
+    background-color: rgb(223, 219, 219);
+}
+.active{
+    background-color: rgb(104, 52, 52);
+    color: aliceblue;
+}
+/*Index; Visualizar*/
+.cad-marca{
+    background-color: azure;
+   /* border: 1px solid red;*/
+    border-radius: 15px;
+    text-align:center ;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.cad-marca p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    margin-bottom: 50px;
+ }
+.cad-marca .btnindex{
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 35%;
+}
+.btnindex:hover{
+    border: 1px solid green;
+    color: black;
+    background-color:transparent;
+    transition: .5s;
+}
+
+/*marcas->index;marcas*/
+.btnmarca{
+    color: white;
+    background-color: green;
+    border-bottom: 1px solid black;
+    margin-left: -25px;
+    width: 100%;
+}
+.btnmarca:hover{
+    background-color: transparent;
+    color: black;
+    transition: .5s;
+    border: 1px solid green ;
+    box-shadow: 3px 3px 3px green;
+   
+}
+.iconmarca{
+    padding: 5px;
+}
+.marca{
+    border-bottom: 2px solid black;
+    width: 20%;
+    margin-bottom: 10px;
+    
+}
+
+/*marcas->index;corpo da tabela*/
+#edit:hover{
+    color:green;
+    
+}
+#del:hover{
+    color:red;
+    
+}
+/*marcas->cadastromarca,modelo->index; cadastro*/
+
+.cadma{
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    background-color: azure;
+    border-radius: 30px;
+    padding: 50px 50px 50px 50px;
+}
+#form_input,#form_input1{
+    display: block;
+    margin: 20px auto; 
+    width: 80%;
+    border-radius: 7px;
+}
+
+.marca{
+    padding: 30px;
+}
+.bott{
+    width: 35%;
+}
+
+/*modelo->cadastromodelo; cadastro*/
+.sucess{
+    color: green;
+    font-size: 20px;
+    font-style: bold;
+}
+.fail{
+    color: red;
+    font-size: 20px;
+    font-style: bold;
+}

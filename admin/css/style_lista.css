@@ -1,0 +1,55 @@
+.list{
+    color: rgb(21, 121, 121);
+    
+}
+header{
+    border-bottom: 1px solid rgb(119, 121, 118);
+}
+
+.menu{
+    width:0;
+    margin: 20px;
+    
+}
+
+.container-menu{
+    height: 571px;
+    
+    width: 100%;
+    padding:0;
+    background-color: #f1f1f1;
+    border-right: 1px solid #777976;
+    
+}
+.lista{
+    display: none;
+    border-radius:7px;
+    box-shadow: 2px 2px 4px black;
+    background-color: beige;
+}
+.btn{
+    margin-left: 5px;
+    width: 93%;
+    margin-top: 8px;
+    border-radius:15px ;
+    box-shadow: 5px 5px 10px #a8aaa7;
+} 
+ .mostrar{
+    background-color: #a8aaa7;
+   margin-left: 210px;
+   margin-top: -545px;
+   width: 90%;
+    
+}
+.navbar{
+    text-align: center;
+}
+.topo i:hover{
+    color: rgb(8, 131, 131);
+    transition: 1s;
+}
+
+.topo h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px ;
+}
